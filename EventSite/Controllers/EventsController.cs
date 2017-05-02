@@ -10,6 +10,7 @@ using EventSite.Models;
 
 namespace EventSite.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class EventsController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();

@@ -24,7 +24,7 @@ namespace EventSite.Migrations
             var manager = new RoleManager<IdentityRole>(store);
 
             //create user role if not already in db
-            if(!context.Roles.Any(a => a.Name == userRole))
+            if (!context.Roles.Any(a => a.Name == userRole))
             {
                 var role = new IdentityRole { Name = userRole };
                 manager.Create(role);
@@ -41,7 +41,7 @@ namespace EventSite.Migrations
             var defaultAdmin = "admin@localbar.com";
             var password = "password";
 
-            if(!context.Users.Any(a => a.UserName == defaultAdmin))
+            if (!context.Users.Any(a => a.UserName == defaultAdmin))
             {
                 var userStore = new UserStore<ApplicationUser>(context);
                 var userManager = new UserManager<ApplicationUser>(userStore);

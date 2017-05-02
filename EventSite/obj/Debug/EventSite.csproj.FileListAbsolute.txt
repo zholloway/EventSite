@@ -96,4 +96,3 @@ c:\users\zack holloway\documents\visual studio 2017\Projects\EventSite\EventSite
 c:\users\zack holloway\documents\visual studio 2017\Projects\EventSite\EventSite\obj\Debug\EventSite.pdb
 c:\users\zack holloway\documents\visual studio 2017\Projects\EventSite\EventSite\obj\Debug\EventSite.Migrations.dbsetup.resources
 c:\users\zack holloway\documents\visual studio 2017\Projects\EventSite\EventSite\obj\Debug\EventSite.csproj.GenerateResource.Cache
-c:\users\zack holloway\documents\visual studio 2017\Projects\EventSite\EventSite\obj\Debug\EventSite.Migrations.updatingGenretable.resources
