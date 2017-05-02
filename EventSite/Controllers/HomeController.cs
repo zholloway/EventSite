@@ -35,6 +35,7 @@ namespace EventSite.Controllers
             return View(events);
         }
 
+        [Authorize(Roles = "admin")]
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -42,6 +43,7 @@ namespace EventSite.Controllers
             return View();
         }
 
+        [Authorize(Roles = "user")]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
