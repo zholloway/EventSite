@@ -1,0 +1,18 @@
+﻿@model EventSite.Models.Order
+
+
+@if (Model.Tickets.Any())
+{
+    <h3>Your Cart:</h3>
+    <ul>
+        @foreach (var item in Model.Tickets)
+        {
+            <li>Ticket for Event ID: @item.EventID</li>
+        }
+    </ul>
+    @Html.ActionLink("Checkout", "Checkout", "Home")
+}
+else
+{
+    <h4><i>your cart is empty :-(</i></h4>
+}

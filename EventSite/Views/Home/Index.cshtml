@@ -1,17 +1,25 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-@model IEnumerable<EventSite.Models.Event>
+@model EventSite.Models.HomeViewModel
 
 <h1>Upcoming Events</h1>
+
+<div class="row">
+    <div class="col-lg-12" id="shoppingCart">
+        @Html.Partial("_shoppingCart", Model.ShoppingCart)
+    </div>
+</div>
+
 <hr />
-@foreach (var item in Model)
+@foreach (var item in Model.Events)
 {
     <div>
         <h2>@item.Title</h2>
         <p>@item.Description</p>
         <p><strong>Begins</strong> at @item.StartTime</p>
         <p><strong>Ends</strong> at @item.EndTime</p>
+        <button onclick="addToCart(@item.ID)">Add Ticket!</button>
     </div>
     <hr />
 }

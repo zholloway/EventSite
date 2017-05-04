@@ -94,5 +94,6 @@ c:\users\zack holloway\documents\visual studio 2017\Projects\EventSite\EventSite
 c:\users\zack holloway\documents\visual studio 2017\Projects\EventSite\EventSite\obj\Debug\EventSite.csprojResolveAssemblyReference.cache
 c:\users\zack holloway\documents\visual studio 2017\Projects\EventSite\EventSite\obj\Debug\EventSite.dll
 c:\users\zack holloway\documents\visual studio 2017\Projects\EventSite\EventSite\obj\Debug\EventSite.pdb
-c:\users\zack holloway\documents\visual studio 2017\Projects\EventSite\EventSite\obj\Debug\EventSite.Migrations.dbsetup.resources
-c:\users\zack holloway\documents\visual studio 2017\Projects\EventSite\EventSite\obj\Debug\EventSite.csproj.GenerateResource.Cache
+C:\Users\Zack Holloway\Documents\Visual Studio 2017\Projects\EventSite\EventSite\obj\Debug\EventSite.Migrations.first.resources
+C:\Users\Zack Holloway\Documents\Visual Studio 2017\Projects\EventSite\EventSite\obj\Debug\EventSite.csproj.GenerateResource.Cache
+C:\Users\Zack Holloway\Documents\Visual Studio 2017\Projects\EventSite\EventSite\obj\Debug\EventSite.Migrations.lehgooo.resources

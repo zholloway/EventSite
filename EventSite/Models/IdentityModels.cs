@@ -32,5 +32,7 @@ namespace EventSite.Models
 
         public DbSet<Event> Events { get; set; }
         public DbSet<Genre> Genres { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }
